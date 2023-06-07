@@ -1,0 +1,46 @@
+#title, h3 {
+  justify-content: center;
+  display: flex;
+}
+
+body {
+  background-color: pink;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.container {
+  margin: 50px 50px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 70px;
+  padding: 10px;
+}
+
+.line {
+  display: grid;
+  grid-template-rows: auto;
+  color: rgb(50, 48, 49);
+  background-color: lightblue;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.name {
+  text-align: center;
+}
+
+.css-first {
+  background-color: red;
+}
+
+.css-second {
+  color: red;
+}
+
+.css-third {
+  background: linear-gradient(blue, yellow);
+}
+
+.css-four {
+  font-family: 'Times New Roman', Times, serif;
+}

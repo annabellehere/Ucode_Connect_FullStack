@@ -1,0 +1,67 @@
+.tit {
+    background-color: black;
+    color: white;
+    border: hidden;
+}
+
+.soul {
+    background-color: orange;
+    border-style: solid;
+    border-color: lightgray;
+    border-width: 2px;
+}
+
+.time {
+    background-color: green;
+    border-style: solid;
+    border-color: lightgray;
+    border-width: 2px;
+}
+
+.space {
+    background-color: blue;
+    border-style: solid;
+    border-color: lightgray;
+    border-width: 2px;
+}
+
+.mind {
+    background-color: yellow;
+    border-style: solid;
+    border-color: lightgray;
+    border-width: 2px;
+}
+
+.reality {
+    background-color: red;
+    border-style: solid;
+    border-color: lightgray;
+    border-width: 2px;
+} 
+
+.power {
+    background-color: purple;
+    border-style: solid;
+    border-color: lightgray;
+    border-width: 2px;
+}
+
+table {
+    width: 100%;
+    text-align: center;
+    border-spacing: 0px;
+    border-collapse: separate;
+}
+
+img {
+    border-radius: 20px;
+    height: 120px;
+    width: 120px;
+    padding-top : 10px;
+    padding-bottom : 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+
+ 

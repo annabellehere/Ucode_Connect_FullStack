@@ -1,0 +1,53 @@
+.container {
+    width: fit-content;
+    margin: auto;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    flex-flow:column;
+}
+
+.buttons {
+    width: fit-content;
+    margin: auto;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+img {
+    width: 400px;
+    height: 500px;
+}
+
+p{
+    background-color: black;
+    color:aliceblue;
+    border-radius: 30%;
+    text-align: center;
+    width: 60%;
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+input {
+    margin: 3px;
+    padding: 10px;
+    font-size:medium;
+    background-color: black;
+    color:aliceblue;
+    border-radius: 30%;
+}
+
+input:hover {
+    background-color: gray;
+}
+
+body {
+    background-color: orange;
+}
+
+.hidden {
+    display: none !important;
+}

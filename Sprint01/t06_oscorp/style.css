@@ -1,0 +1,246 @@
+input[type="range"] {
+    width: 200px;
+}
+
+.items img {
+    height: 150px;
+    width: 150px;
+    margin: auto;
+    border-radius: 20px;
+    grid-column: 1;
+    grid-row: 1 / 5;
+}
+
+.items {
+    display: grid;
+    width: auto;
+    grid-template-rows: auto auto auto auto;
+    grid-template-columns: auto auto;
+    grid-auto-flow: row;
+    margin: 10px;
+}
+
+.items-container {
+    display: grid;
+    width: 100%;
+    grid-template-columns: 45% 45%;
+}
+
+.store-body {
+    display: grid;
+    grid-template-columns: 20% auto;
+    grid-template-rows: auto auto;
+}
+
+.filters {
+    display: inline-flex;
+    grid-column: 1 / 3;
+}
+
+.filter-menu {
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+}
+
+header, footer {
+    background-color: pink;
+    height: fit-content;
+    display: inline-flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+    text-align: center;
+}
+
+.mainmenu {
+    display: block;
+    width: 10em;
+    padding: 0.7em;
+    text-decoration: none;
+    color: black;
+}
+
+.mainmenu:hover {
+    background-color: rgb(192, 219, 233);
+}
+
+footer {
+    height: fit-content;
+    justify-content: space-between;
+}
+
+footer p {
+    text-align: center;
+    display: inline;
+}
+
+.options-shirt {
+    width: auto;
+    border-radius: 1em;
+    background-color: white;
+    padding: 0.5em;
+    text-align: center;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.options-shirt:hover {
+    background-color: whitesmoke;
+}
+
+.filter-menu {
+    margin: 15px;
+}
+
+.undermain {
+    background-color: white;
+    width: 100%;
+}
+
+.link-underline {
+    text-decoration: none;
+}
+
+.price-ranges {
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 200px;
+}
+
+body {
+    font-family:'Courier New', Courier, monospace;
+    font-size: large;
+    background-color: lightblue;
+}
+
+h1 {
+    margin-left: 15px;
+}
+
+.store-title {
+    font-weight: bold;
+    font-family:'Times New Roman', Times, serif;
+    font-size: larger;
+}
+
+.prod-title {
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.buy {
+    height: 2em;
+    width: 150px;
+    display: block;
+    background-color: pink;
+    border-radius: 1em;
+    border-style: none;
+    padding: 2px;
+    padding-top: 20px;
+    font-size: xx-large;
+    text-decoration: none;
+    text-align: center;
+    color: black;
+}
+
+.buy:hover {
+    background-color: lightpink;
+}
+
+.items-detailed {
+    display: grid;
+}
+
+.tomy {
+    border-radius: 20%;
+    height: 40em;
+    margin: auto;
+}
+
+.review {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    background-color: pink;
+    border-radius: 20%;
+}
+
+.review img {
+    height: 60px;
+    width: 60px;
+}
+
+.pages {
+    margin: auto;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.pages a {
+    width: 25px;
+    height: 25px;
+    border: 1px solid black;
+    border-radius: 5px;
+    display: block;
+    margin: 10px;
+    text-decoration: none;
+    color: black;
+    text-align: center;
+    background-color: pink;
+    
+}
+
+.pages a:hover {
+    background-color: lightpink;
+}
+
+@media only screen and (min-width: 1024px) {
+    .items-container {
+        display: grid;
+        width: 100%;
+        grid-template-columns: 45% 45%;
+    }
+    
+    .store-body {
+        display: grid;
+        grid-template-columns: 20% auto;
+        grid-template-rows: auto auto;
+    }
+
+    .filters {
+        display: inline-flex;
+        grid-column: 1 / 3;
+    }
+
+    .items-detailed {
+        grid-template-columns: auto auto;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .items-container {
+        display: grid;
+        width: 100%;
+        grid-template-columns: 100%;
+    }
+    
+    .store-body {
+        display: grid;
+        grid-template-columns: 100%;
+    }
+
+    .filters {
+        display: inline-flex;
+        grid-column: 1;
+    }
+     
+    .items-detailed {
+        grid-template-columns: auto;
+    }
+}
+

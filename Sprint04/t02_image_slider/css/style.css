@@ -1,0 +1,50 @@
+* { box-sizing:border-box }
+
+.container {
+  max-width: 500px;
+  max-height: 300px;
+  background: white;
+  position: relative;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+img {
+  max-width: 500px;
+  max-height: 300px;
+  min-width: 500px;
+  min-width: 300px;
+  margin: 0;
+}
+
+.prev, .next {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  position: absolute;
+  height: 100%;
+  width: 5%;
+  top: 0;
+  text-align: center;
+  display: flex;
+  padding: 25% 16px 25% 16px;
+  color: #ffffff;
+  background: rgba(222, 222, 222, 0.8);
+  font-weight: bold;
+  user-select: none;
+}
+
+.next {
+  right:80%;
+}
+
+.prev {
+  left:80%;
+}
+
+.prev:hover, .next:hover {
+  background-color: gray;
+}

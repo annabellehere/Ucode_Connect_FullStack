@@ -1,0 +1,55 @@
+.men {
+  display: flex;
+  background-color: black;
+  color: orange;
+  font-family:'Courier New', Courier, monospace;
+  font-size: 2em;
+  justify-content: center;
+}
+  
+.menu li ul span {
+  background-color: black;
+  font-size: 2em;
+  text-align: left;
+  font-family:'Courier New', Courier, monospace;
+}
+
+.menu ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+}
+
+.menu > ul span {
+  display: block;
+  background-color: black;
+  padding: 15px 10px;
+  width: 15em;
+  color: orange;
+  font-size: 2em;
+  text-align: center;
+}
+      
+.menu li ul {
+  position: absolute;
+  list-style: none;
+  display: none;
+  padding: 5px;
+}
+
+.menu li span:hover {
+  background-color: rgb(44, 43, 43);
+}
+    
+.menu li:hover > ul {
+  display: block;
+}
+  
+.menu li > ul li ul {
+  left: 500px;
+  top: 0px;
+}
+
+.main {
+  border: 5px solid white;
+}

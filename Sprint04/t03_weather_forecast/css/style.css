@@ -1,0 +1,96 @@
+html,
+body,
+.background {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+    color: white;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    overflow: auto;
+    position: relative;
+    background: #86edff;
+}
+
+.heading {
+    font-weight: bold;
+    font-size: 2rem;
+    letter-spacing: 0.02em;
+    padding: 0 0 30px 0;
+}
+
+.top-banner form {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.box-card {
+    display: flex;
+    flex-direction: row;
+}
+
+#card {
+    box-shadow: 9px 7px 40px -6px rgb(255, 255, 255);
+    overflow: hidden;
+    width: 220px;
+    padding: 0;
+    height: 200px;
+    margin: 20px;
+    border-radius: 5px;
+    position: relative;
+}
+
+#card:hover {
+    box-shadow: 0 0 5px gray;
+}
+
+#card .details {
+    position: absolute;
+    padding: 16px 20px;
+    color: whitesmoke;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    transition: color 2s ease;
+}
+
+#card .details .right{
+    text-align: right;
+}
+
+#card .temp {
+    font-size: 50px;
+    line-height: 50px;
+}
+
+#card .details #city {
+    margin: 8px 0;
+    font-size: 25px;
+    line-height: 25px;
+}
+
+#card .details #summary {
+    font-weight: 600;
+    font-size: 22px;
+}
+
+#card .details #cardWeather img {
+    width: 100%;
+}
+
+.weather {
+    background-color: #ffc4ff;
+    transition: background-color 2s ease;
+}

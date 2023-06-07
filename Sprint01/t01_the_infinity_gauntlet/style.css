@@ -1,0 +1,22 @@
+.gauntlet {
+  width: 350px;
+}
+
+.gaun {
+  display: flex;
+  flex-direction: column;
+}
+
+.skin {
+  width: 100px;
+}
+
+.gauntlet:hover ~ .odd .skin:nth-child(odd),
+.gauntlet:hover ~ .even .skin:nth-child(even) {
+  opacity: 0;
+}
+
+.odd,
+.even {
+  display: flex;
+}

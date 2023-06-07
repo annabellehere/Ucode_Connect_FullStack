@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Handbook</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 id="title">Handbook</h1>
+    <h3>HTML</h3>
+    <div class="container">
+        <div class="line">
+            <div class="name">Headers</div>
+            <div>Description of headers</div>
+            <div class="code"><pre><code>&lt;h1&gt;Header&lt;/h1&gt;</code></pre></div>
+            <div><h1>Header</h1></div>
+            </div>
+        <div class="line">
+            <div class="name">Button</div>
+            <div>Description of button</div>
+            <div class="code"><pre><code>&lt;button&gt;Button&lt;/button&gt;</code></pre></div>
+            <div><button>Button</button></div>
+            </div>
+        <div class="line">
+            <div class="name">CheckBox</div>
+            <div>Description of checkbox</div>
+            <div class="code"><pre><code>&lt;input type="checkbox"&gt;Input</code></pre></div>
+            <div><input type="checkbox"></div>
+            </div>
+        <div class="line">
+            <div class="name">Horizontal Rule</div>
+            <div>Description of Horizontal Rule</div>
+            <div class="code"><pre><code>&lt;hr&gt;Text</code></pre></div>
+            <div><hr>Text</div>
+        </div>
+    </div>
+    <h3>CSS</h3>
+    <div class="container">
+        <div class="line">
+            <div class="name">Background Color</div>
+            <div>Description of background Color</div>
+            <div class="code">                
+<pre><code>.css-first {
+    background-color: red;
+}
+            </code></pre></div>
+            <div><span class="css-first">Text</span></div>
+            </div>
+        <div class="line">
+            <div class="name">Text color</div>
+            <div>Description of text color</div>
+            <div class="code">
+<pre><code>.css-second {
+    color: red;
+}</code></pre></div>
+            <div><span class="css-second">Text</span></div>
+            </div>
+        <div class="line">
+            <div class="name">Background gradient</div>
+            <div>Description of background gradient</div>
+            <div class="code">
+<pre><code>.css-third {
+    background: linear-gradient(black, white);
+}</code></pre>
+            </div>
+            <div><span class="css-third">Text</span></div>
+            </div>
+        <div class="line">
+            <div class="name">Font family</div>
+            <div>Description of font family</div>
+            <div class="code">
+<pre><code>.css-third {
+    font-family: 'Times New Roman', Times, serif;
+}</code></pre>
+            </div>
+            <div><span class="css-four">Text</span></div>
+        </div>
+    </div>
+    <h3>PROTOCOLS</h3>
+    <div class="container">
+        <div class="line">
+            <div class="name">Protocols</div>
+            <p>In networking, a protocol is a set of rules for formatting and processing data. Network protocols are like a common language for computers. 
+                The computers within a network may use vastly different software and hardware; however, the use of protocols enables them to communicate with each other regardless.</p>
+            <p>Protocols make these networking functions possible. For instance, the Internet Protocol (IP) is responsible for routing data by indicating where data packets* come from and what their destination is. 
+                IP makes network-to-network communications possible. Hence, IP is considered a network layer (layer 3) protocol.</p>
+                <p>As another example, the Transmission Control Protocol (TCP) ensures that the transportation of packets of data across networks goes smoothly. Therefore, TCP is considered a transport layer (layer 4) protocol.</p>
+            </div>
+        <div class="line">
+            <div class="name">HTTP/HTTPS</div>
+            <div><p>HTTP/HTTPS - protocols for web communication.</p><p> Methods: GET, POST, PUT, DELETE, PATCH.</p>
+                <p> Response codes: 1xx (info), 2xx (success), 3xx (redirection), 4xx (client error), 5xx (server error).</p>
+            <p> HTTPS = secure HTTP.</p>
+            <p>HTTPS is a secure version of HTTP that encrypts data exchanged between clients and servers using SSL/TLS protocols. It uses the same methods and status codes as HTTP but adds an additional layer of security by ensuring data integrity and confidentiality.</p></div>
+            </div>
+        <div class="line">
+            <div class="name">DNS</div>
+            <div><p>DNS (Domain Name System) is a system that translates domain names into IP addresses, enabling the identification and location of resources on the internet. 
+                DNS records are used to store specific types of information associated with a domain. 
+                Here are some common types of DNS records:</p>
+            <p>CNAME (Canonical Name) Record: Creates an alias for a domain name, allowing it to point to another domain name.</p>
+            <p>MX (Mail Exchanger) Record: Specifies the mail server responsible for accepting incoming email for a domain.</p>
+            <p>TXT (Text) Record: Allows arbitrary text to be associated with a domain. Commonly used for SPF (Sender Policy Framework) records for email authentication.</p>
+            <p>NS (Name Server) Record: Specifies the authoritative DNS servers for a domain.
+                Example: example.com -> ns1.example.com</p></div>
+            </div>
+        <div class="line">
+            <div class="name">IP - how to determine an IP address</div>
+            <div>
+                <p>Using Command Prompt/Terminal:</p>
+                <ul>
+                    <li> Windows, open Command Prompt. On macOS or Linux, open Terminal.</li>
+                    <li>Type the command "nslookup" followed by the domain name.</li>
+                    <li>Press Enter.</li>
+                    <li>The IP address associated with the domain name will be displayed.</li>
+                </ul>
+            <p>Using Online Tools:</p><ul>
+                <li>Various online tools provide IP address lookup services</li>
+                <li>Open a web browser and search for "IP address lookup" or "DNS lookup."</li>
+                <li>Choose a reliable tool from the search results.</li>
+                <li>Enter the domain name in the provided field or option.</li>
+                <li> Initiate the lookup.</li>
+                <li>The resulting page will display the corresponding IP address.</li></ul></div>
+        </div>
+    </div>
+</body>
+</html>   

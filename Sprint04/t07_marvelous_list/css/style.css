@@ -1,0 +1,66 @@
+body {
+  margin: 0;
+  padding: 0;
+  color: gray;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  max-width: 1000px;
+  margin: 50px auto;
+  background-color: #efccf1;
+  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.6);
+  padding: 15px;
+}
+
+.names {
+  flex-basis: 30%;
+  padding-right: 20px;
+  list-style: none;
+}
+
+.names-film {
+  margin-bottom: 10px;
+  cursor: pointer;
+  text-align: center;
+}
+
+.names-film:hover {
+  background-color: aliceblue;
+  border-radius: 5%;
+}
+
+.info {
+  flex-basis: 70%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.poster {
+  max-width: 250px;
+  align-self: flex-end;
+  border-radius: 10px;
+}
+
+.data {
+  margin-top: -7px;
+  font-style: italic;
+}
+
+.actors {
+  display: flex;
+  flex-direction: row;
+}
+
+h1 {
+  text-align: center;
+}
+
+.elem {
+  margin: 5px;
+  background-color: rgb(220, 220, 220);
+  border-radius: 20%;
+  padding: 10px;
+}

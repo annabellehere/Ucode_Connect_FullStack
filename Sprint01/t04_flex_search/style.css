@@ -1,0 +1,25 @@
+.diviv {
+    display: flex;
+    padding-left: 10px;
+    padding-right: 10px;
+    height: 2em;
+}
+
+.button {
+    color: green;
+}
+
+.search {
+    color: green;
+    width: 100%;
+}
+
+.search:hover, .button:hover {
+    color: red;
+}
+
+h1 {
+    text-align: center;
+}
+
+
